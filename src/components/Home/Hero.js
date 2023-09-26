@@ -74,7 +74,7 @@ const Hero = () => {
 
                 <div className="hero-img">
                     <img
-                        src={WatchImg}
+                        src="https://res.cloudinary.com/dsfypcapq/image/upload/v1695713331/blankbaseball_zkchaq.png"
                         alt="coding illustration"
                         className="lgw-[80%] ml-auto"
                     />
