@@ -1,5 +1,4 @@
 import React from "react";
-import mixtape from "/Users/alasdairkite/Documents/reactprojects/routing/src/assets/mixtape.png";
 const About2 = () => {
     return (
 
@@ -11,7 +10,7 @@ const About2 = () => {
                     </h2>
                 </div>
                 <div className="flex flex-col justify-center">
-                            <img  className="object-cover w-1/2 mx-auto maw-w-44" src={mixtape}
+                            <img  className="object-cover w-1/2 mx-auto maw-w-44" src="https://res.cloudinary.com/dsfypcapq/image/upload/v1695713654/mixtape_wzyte8.png"
                                  alt="shopping item"/>
                 </div>
             </div>

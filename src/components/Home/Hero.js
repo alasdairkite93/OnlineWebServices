@@ -1,5 +1,4 @@
 import React from "react";
-import WatchImg from "/Users/alasdairkite/Documents/reactprojects/routing/src/assets/blankbaseball.png";
 
 import styled from "styled-components";
 
