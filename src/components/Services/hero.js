@@ -2,7 +2,7 @@ import React from "react";
 
 const hero = (props) => {
 
-    const { herotext } = props.data;
+    const { herotext, heroimage } = props.data;
 
     return (
         <section className="bg-gradient-to-r from-sky-300 to-orange-300 px-5 text-white py-32">
@@ -18,8 +18,8 @@ const hero = (props) => {
                            data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Learn more</a>
                     </div>
                     <div className="mb-12 lg:mb-0">
-                        <img src="https://tecdn.b-cdn.net/img/new/ecommerce/horizontal/048.jpg"
-                             className="w-full rounded-lg shadow-lg dark:shadow-black/20" alt=""/>
+                        <img src={heroimage}
+                             className="w-full rounded-lg dark:shadow-black/20" alt=""/>
                     </div>
                 </div>
             </div>

@@ -1,38 +1,66 @@
-import React from "react";
+import React, {useRef} from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_u5mfehk', 'template_kabljxp', form.current, '5U3UHbAKEWSnnRkNq')
+            .then((result) => {
+                alert('Message sent successfully.');
+                console.log(result.text);
+            }, (error) => {
+                alert('Message failed to send.');
+                console.log(error.text);
+            });
+    };
+
     return (
-<section className="text-gray-600 body-font relative">
-    <div className="absolute inset-0 bg-gray-300">
-        <iframe width="100%" height="100%" frameBorder="0" marginHeight="0" marginWidth="0" title="map" scrolling="no"
-                src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-                styles="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
-    </div>
-    <div className="container px-5 py-24 mx-auto flex">
-        <div
-            className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-            <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
-            <p className="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion
-                axe</p>
-            <div className="relative mb-4">
-                <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
-                <input type="email" id="email" name="email"
-                       className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <section className="bg-gray-50 px-5 " id="contact">
+            <div className="text-center md:w-[90%] mx-auto text-black ">
+                <h2 className="text-2xl text-center font-semibold font-display text-black dark:text-white sm:text-3xl">
+                    Send a message
+                </h2>
             </div>
-            <div className="relative mb-4">
-                <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
-                <textarea id="message" name="message"
-                          className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md ">
+                <p className="mb-8 lg:mb-16 font-light text-center text-white dark:text-gray-400 sm:text-xl">Want to
+                    send a message? Or find out more information?</p>
+                <form ref={form} onSubmit={sendEmail} className="space-y-4">
+                    <div>
+                        <label htmlFor="email"
+                               className="block mb-2 text-sm font-medium text-black dark:text-gray-300">Your
+                            email</label>
+                        <input type="email" id="email" name="user_email"
+                               className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                               placeholder="name@flowbite.com" required/>
+                    </div>
+                    <div>
+                        <label htmlFor="subject"
+                               className="block mb-2 text-sm font-medium text-black dark:text-gray-300">Subject</label>
+                        <input type="text" id="subject"
+                               name="user_name"
+                               className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                               placeholder="Let us know how we can help you" required/>
+                    </div>
+                    <div className="sm:col-span-2">
+                        <label htmlFor="message"
+                               className="block mb-2 text-sm font-medium text-black dark:text-gray-400">Your
+                            message</label>
+                        <textarea id="message" rows="6" name="message"
+                                  className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                  placeholder="Leave a comment..."></textarea>
+                    </div>
+                    <button type="submit"
+                            className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-neutral-950 sm:w-fit hover:bg-neutral-700 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send
+                        message
+                    </button>
+                </form>
             </div>
-            <button
-                className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button
-            </button>
-            <p className="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral
-                artisan.</p>
-        </div>
-    </div>
-</section>
-    )
-}
+        </section>
+    );
+};
 
 export default ContactForm;

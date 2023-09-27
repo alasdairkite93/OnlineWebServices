@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <div className="max-w-full flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="logo">
-          Logo
+            <h1>Online Web Services</h1>
         </Link>
         <Navbar />
       </div>

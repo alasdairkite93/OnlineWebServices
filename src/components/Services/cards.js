@@ -8,13 +8,6 @@ const cards = (props) => {
     const card = facts.map(
         (info) => {
 
-            //     <ul>
-            //         <li>{info.heading}</li>
-            //         <li>{info.fact}</li>
-            //         <li>{info.image}</li>
-            //     </ul>
-            // )
-
             return (
                         <div
                             className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">

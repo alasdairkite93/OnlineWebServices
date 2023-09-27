@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Solutions = () => {
     return (
@@ -11,6 +12,7 @@ const Solutions = () => {
                     <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
                          data-wow-duration="1s"
                          styles="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                        <Link to="/email-lists">
                         <div
                             className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
                             <div className="inline-block text-gray-900 mb-4">
@@ -28,10 +30,12 @@ const Solutions = () => {
                             <p className="text-gray-500">Generate validated email lists from directories, google and
                                 other sources.</p>
                         </div>
+                        </Link>
                     </div>
                     <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
                          data-wow-duration="1s" data-wow-delay=".1s"
                          styles="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        <Link to="/web-scraping">
                         <div
                             className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
                             <div className="inline-block text-gray-900 mb-4">
@@ -49,10 +53,12 @@ const Solutions = () => {
                             <h3 className="text-lg leading-normal mb-2 font-semibold text-black">Web Scraping</h3>
                             <p className="text-gray-500">Scrape content from client facing pages and API end points.</p>
                         </div>
+                        </Link>
                     </div>
                     <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
                          data-wow-duration="1s" data-wow-delay=".3s"
                          styles="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <Link to="/web-development">
                         <div
                             className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
                             <div className="inline-block text-gray-900 mb-4">
@@ -68,10 +74,12 @@ const Solutions = () => {
                             <p className="text-gray-500">Deploy a freely hosted web site using the latest development
                                 framework.</p>
                         </div>
+                        </Link>
                     </div>
                     <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
                          data-wow-duration="1s"
                          styles="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                        <Link to="/web-tool-development">
                         <div
                             className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
                             <div className="inline-block text-gray-900 mb-4">
@@ -117,10 +125,12 @@ const Solutions = () => {
                             <p className="text-gray-500">Design a plugin or chrome extension and maximise
                                 productivity.</p>
                         </div>
+                        </Link>
                     </div>
                     <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
                          data-wow-duration="1s" data-wow-delay=".1s"
                          styles="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        <Link to="/application-development">
                         <div
                             className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
                             <div className="inline-block text-gray-900 mb-4">
@@ -134,10 +144,12 @@ const Solutions = () => {
                                 Development</h3>
                             <p className="text-gray-500">Design an application and undertake new tasks.</p>
                         </div>
+                        </Link>
                     </div>
                     <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
                          data-wow-duration="1s" data-wow-delay=".3s"
                          styles="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <Link to="/seo-affiliates">
                         <div
                             className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
                             <div className="inline-block text-gray-900 mb-4">
@@ -151,6 +163,7 @@ const Solutions = () => {
                                 Marketing</h3>
                             <p className="text-gray-500">Increase google page ranking and monetise page visits.</p>
                         </div>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ import {
     AiOutlineYoutube,
     AiOutlineFacebook,
     AiOutlineInstagram,
-    AiOutlineLinkedin,
+    AiOutlineLinkedin, AiOutlineGithub,
 } from "react-icons/ai";
 
 import {
@@ -61,14 +61,15 @@ const Hero = () => {
                             {" "}
                             <AiOutlineLinkedin size={40}  />{" "}
                         </a>
+                        <a
+                            href="https://github.com/alasdairkite93"
+                            className="pr-4 inline-block hover:text-black"
+                        >
+                            {" "}
+                            <AiOutlineGithub size={40}  />{" "}
+                        </a>
                     </Flex>
 
-                    <a
-                        href="/#projects"
-                        className=" btn bg-accent  border-2 border-[#284B63] text-white px-6 py-3 hover:bg-transparent"
-                    >
-                        See Projects
-                    </a>
                 </div>
 
                 <div className="hero-img">
