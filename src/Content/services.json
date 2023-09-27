@@ -1,6 +1,7 @@
 {
   "emaillist": {
     "herotext": "Create focussed marketing mailing lists",
+    "quote": "“I want to do business with a company that treats emailing me as a privilege, not a transaction.” – Andrea Mignolo",
     "text": "If your looking for a way of reaching prospective customers then a mailing list is the perfect way to send out communications and grow your network",
     "para": "Email lists expand networks and offer a direct approach of reaching organisations through established means of communication. 65% of email users check their inbox more than three times a day providing multiple opportunities for reaching audiences throughout the day",
     "heroimage": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695832792/Screenshot_2023-09-27_at_17.39.21_t9s1ua.png",
@@ -8,45 +9,47 @@
       {
         "heading": "Get emails to thousands of businesses in your region!",
         "fact": "Use advanced web scraping and crawling technologies to request web content from businesses in your industry.",
-        "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695407381/art-lasovsky-8XddFc6NkBY-unsplash-removebg-preview_urem2g.png"
+        "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841803/email-removebg-preview_r5qrdi.png"
       },
       {
         "heading": "Multiple ways of searching for new business",
         "fact": "Focussed searches by industry, region and social media presence!",
-        "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+        "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841881/search-removebg-preview_tlohku.png"
       },
       {
         "heading": "Hundreds of possible directories to choose from",
         "fact": "Get contacts from established directories on web pages like Thomson, Yell, The Law Society, Google and others!",
-        "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+        "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841918/directory-removebg-preview_bfa7vx.png"
       }
     ]
   },
     "applicationdevelopment": {
         "herotext": "Create bespoke application software that runs from your desktop",
         "text": "Design and build productivity boosting applications that open from the desktop, designed with you in mind.",
+      "quote": "“Simplicity is the soul to efficiency.” – Austin Freeman",
         "para": "Productivity boosting software to get the latest data from one of your target websites, the most recent job openings, the latest email lists. Build GUIs that display realtime updates on stock prices, execute commands and configure web requests.",
         "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1695833515/figmadesign_gbmxpy.jpg",
       "facts": [
             {
                 "heading": "Launch software from the get go!",
                 "fact": "Forget having to install libraries or source code, get prepackaged ready to use software from the word go.",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695407381/art-lasovsky-8XddFc6NkBY-unsplash-removebg-preview_urem2g.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695840890/pyinstaller-removebg-preview_y8jlsq.png"
             },
             {
                 "heading": "You decide on how you want to use application",
                 "fact": "No limits on what features you get, how the application looks or how it works!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695840963/you-removebg-preview_cakr1c.png"
             },
             {
                 "heading": "Limitless possibilities and opportunities to extend",
                 "fact": "Countless implementations and extensions possible!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841035/infinite-removebg-preview_qnytwc.png"
             }
         ]
     },
     "SEOAffiliates": {
         "herotext": "Reach new audiences and monetise site traffic",
+      "quote": "SEO is an investment just like a tree that needs effort, patience and time to grow before you can see the result.",
         "text": "Utilise the power of SEO keywords and affiliate partnership programs on your web page",
         "para": "Undertake keyword research campaigns and create content that increases your page ranking. Add affiliate content to the web page and monetise page visits.",
         "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1695833695/keywordresearch-removebg-preview_wldavq.png",
@@ -54,63 +57,65 @@
             {
                 "heading": "SEO keyword research specific to your industry",
                 "fact": "Increase web page search engine ranking using better matched keywords and content!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695407381/art-lasovsky-8XddFc6NkBY-unsplash-removebg-preview_urem2g.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841958/keyword-removebg-preview_wjefjx.png"
             },
             {
                 "heading": "Monetise page visits and generate income",
                 "fact": "Embed links to affiliate marketing and monetise page clicks!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695842012/affiliate-removebg-preview_wz92cy.png"
             },
             {
                 "heading": "Start small and build up",
                 "fact": "Increase traffic using link building, blogs and social media!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695842052/traffic-removebg-preview_lbifhh.png"
             }
         ]
     },
     "WebDevelopment": {
         "herotext": "Build reactive web sites to dazzle page visitors",
         "text": "Professionally advertise services and promote your business to new audiences.",
-        "para": "Craft and cultivate your brand and business by building extendable sites for clients to visit",
+      "quote": "“Website without visitors is like a ship lost in the horizon.”\n― Dr. Christopher Dayagdag",
+      "para": "Craft and cultivate your brand and business by building extendable sites for clients to visit",
         "heroimage": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695836155/react-removebg-preview_2_sf5gkc.png",
         "facts": [
             {
                 "heading": "Advertise services and display past projects using Reactive components",
                 "fact": "Stand out and show off your best work using responsive and reactive components!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695407381/art-lasovsky-8XddFc6NkBY-unsplash-removebg-preview_urem2g.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841143/advertise-removebg-preview_bat84c.png"
             },
             {
                 "heading": "Build connections and make it easy for new customers to get information about your services",
                 "fact": "Create contact forms, maps and pages to provide contact information and help customers send new requests!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841217/connections-removebg-preview_repofj.png"
             },
             {
                 "heading": "Make it easy for people to find you on social media",
                 "fact": "Create links to social media, trade and directory accounts so that you have everything in one place!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841290/socialmedia-removebg-preview_cyje7d.png"
             }
         ]
     },
     "WebScraping": {
         "herotext": "Access and get public content from other web pages",
         "text": "Create new content, build datasets or get the latest news using custom built web scrapers",
+      "quote": "“ Scraping drives the decline of banal and repetitive tasks.” — Amber Rudd.",
         "para": "Design your own web scraper that matches your own advanced requirements of making page requests, replicating human behaviour and obtaining endpoints for use",
         "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1695835334/requests-removebg-preview_ucy6ev.png",
       "facts": [
             {
                 "heading": "Scrape the web using Python and Javascript web scraping libraries",
                 "fact": "Satisfy your data needs using libraries such as selenium, beautiful soup, requests, puppeteer!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695407381/art-lasovsky-8XddFc6NkBY-unsplash-removebg-preview_urem2g.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841344/beautifulsoup-removebg-preview_mnfm2l.png"
             },
             {
                 "heading": "Schedule when and automate scraping using cloud technologies",
                 "fact": "Create scheduled automated scrapers to scrape content from your web sites and get formatted data for use in your project!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841388/cloud-removebg-preview_aauuvy.png"
             },
             {
                 "heading": "Get clean processed data",
                 "fact": "Get formatted and clean data using a tested and maintained web scraper!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841467/cleandata-removebg-preview_ecckuq.png"
             }
         ]
     },
@@ -123,17 +128,17 @@
             {
                 "heading": "Create your own plugins to use in your browser",
                 "fact": "Haven't found a plugin you like, too much choice, costs too much or too complicated to use, build your own instead!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695407381/art-lasovsky-8XddFc6NkBY-unsplash-removebg-preview_urem2g.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841570/plugin-removebg-preview_ubtxsu.png"
             },
             {
                 "heading": "Create your own browsing experience and add new web page content to pre-existing pages",
                 "fact": "Embed your own iframes and cross site script your own servers on a web page while you surf the web!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841619/embed-removebg-preview_tqtazp.png"
             },
             {
                 "heading": "Launch applications and get them on to the Chrome marketplace",
                 "fact": "Design, build and launch your own plugin for the Chrome marketplace and bring your own design to millions of users!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695408260/gael-gaborel-orbisterrae-f7I8uEiYkag-unsplash-removebg-preview_ij0g3d.png"
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841710/extension-removebg-preview_1_zbmqj7.png"
             }
         ]
     }

@@ -15,7 +15,6 @@ const EmailLists = () => {
         <Quote data={services.emaillist}/>
         <Cards data={services.emaillist}/>
         <Block data={services.emaillist}/>
-        <Pricing data={services.emaillist}/>
         <Footer data={services.emaillist}/>
       </>
   )

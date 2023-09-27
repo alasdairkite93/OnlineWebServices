@@ -8,7 +8,7 @@ const Testimonial = () => {
                     <div className="text-center">
                         <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">
                             <a href="https://pph.me/alasdairkite">What
-                                clients say this about us</a></h2>
+                                clients say </a></h2>
                     </div>
                     <div className="relative mt-10 md:mt-24 md:order-2">
                         <div className="absolute -inset-x-1 inset-y-16 md:-inset-x-2 md:-inset-y-6">

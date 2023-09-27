@@ -15,7 +15,6 @@ const WebScraping = () => {
             <Quote data={services.WebScraping}/>
             <Cards data={services.WebScraping}/>
             <Block data={services.WebScraping}/>
-            <Pricing data={services.WebScraping}/>
             <Footer data={services.WebScraping}/>
         </>
     )

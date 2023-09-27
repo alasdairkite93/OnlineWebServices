@@ -15,7 +15,6 @@ const ApplicationDevelopment = () => {
             <Quote data={services.applicationdevelopment}/>
             <Cards data={services.applicationdevelopment}/>
             <Block data={services.emaillist}/>
-            <Pricing data={services.emaillist}/>
             <Footer data={services.emaillist}/>
         </>
     )
