@@ -25,10 +25,11 @@ const About = () => {
                     </div>
                 </div>
                 <div>
-                    <iframe className="mx-auto w-full lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl"
-                            src="https://www.youtube.com/embed/KaLxCiilHns" title="YouTube video player" frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen></iframe>
+                    <iframe loading="lazy"
+                            className="mx-auto w-full lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl"
+                            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFvxPKS2wk&#x2F;watch?embed"
+                            allowFullScreen="allowfullscreen" allow="fullscreen">
+                    </iframe>
                 </div>
             </div>
         </section>
