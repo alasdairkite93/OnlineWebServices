@@ -5,8 +5,7 @@ const block = () => {
     return (
         <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto flex flex-wrap">
-                <h2 className="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">Kickstarter
-                    Actually Pinterest Brunch Bitters Occupy</h2>
+                <h2 className="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">Contact an Expert</h2>
                 <div className="md:w-3/5 md:pl-6">
                     <p className="leading-relaxed text-base">Taxidermy bushwick celiac master cleanse microdosing
                         seitan. Fashion axe four dollar toast truffaut, direct trade kombucha brunch williamsburg

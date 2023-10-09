@@ -14,7 +14,6 @@ const WebToolDevelopment = () => {
         <Hero data={services.WebToolDevelopment}/>
         <Quote data={services.WebToolDevelopment}/>
         <Cards data={services.WebToolDevelopment}/>
-        <Block data={services.WebToolDevelopment}/>
         <Footer data={services.WebToolDevelopment}/>
       </>
   )

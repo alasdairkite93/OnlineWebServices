@@ -17,11 +17,6 @@ const Contact = () => {
 
     return (
         <section className="bg-gray-50 px-5 " id="contact">
-            <div className="text-center md:w-[90%] mx-auto text-black ">
-                <h2 className="text-2xl text-center font-semibold font-display text-black dark:text-white sm:text-3xl">
-                    Send a message
-                </h2>
-            </div>
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md ">
             <p className="mb-8 lg:mb-16 font-light text-center text-white dark:text-gray-400 sm:text-xl">Want to send a message? Or find out more information?</p>
             <form ref={form} onSubmit={sendEmail} className="space-y-4">

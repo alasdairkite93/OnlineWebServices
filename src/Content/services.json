@@ -4,7 +4,7 @@
     "quote": "“I want to do business with a company that treats emailing me as a privilege, not a transaction.” – Andrea Mignolo",
     "text": "If your looking for a way of reaching prospective customers then a mailing list is the perfect way to send out communications and grow your network",
     "para": "Email lists expand networks and offer a direct approach of reaching organisations through established means of communication. 65% of email users check their inbox more than three times a day providing multiple opportunities for reaching audiences throughout the day",
-    "heroimage": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695832792/Screenshot_2023-09-27_at_17.39.21_t9s1ua.png",
+    "heroimage": "https://res.cloudinary.com/dsfypcapq/image/upload/v1696879198/hal-gatewood-fTPSm7KD_d0-unsplash-removebg-preview_jzgc1h.png",
     "facts": [
       {
         "heading": "Get emails to thousands of businesses in your region!",
@@ -28,7 +28,7 @@
         "text": "Design and build productivity boosting applications that open from the desktop, designed with you in mind.",
       "quote": "“Simplicity is the soul to efficiency.” – Austin Freeman",
         "para": "Productivity boosting software to get the latest data from one of your target websites, the most recent job openings, the latest email lists. Build GUIs that display realtime updates on stock prices, execute commands and configure web requests.",
-        "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1695833515/figmadesign_gbmxpy.jpg",
+        "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1696879144/paul-gaudriault-a-QH9MAAVNI-unsplash-removebg-preview_cunuex.png",
       "facts": [
             {
                 "heading": "Launch software from the get go!",
@@ -52,7 +52,7 @@
       "quote": "SEO is an investment just like a tree that needs effort, patience and time to grow before you can see the result.",
         "text": "Utilise the power of SEO keywords and affiliate partnership programs on your web page",
         "para": "Undertake keyword research campaigns and create content that increases your page ranking. Add affiliate content to the web page and monetise page visits.",
-        "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1695833695/keywordresearch-removebg-preview_wldavq.png",
+        "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1696879475/chrissie-kremer-Eq9uX_TuE_c-unsplash-removebg-preview_amnrqk.png",
       "facts": [
             {
                 "heading": "SEO keyword research specific to your industry",
@@ -76,7 +76,7 @@
         "text": "Professionally advertise services and promote your business to new audiences.",
       "quote": "“Website without visitors is like a ship lost in the horizon.”\n― Dr. Christopher Dayagdag",
       "para": "Craft and cultivate your brand and business by building extendable sites for clients to visit",
-        "heroimage": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695836155/react-removebg-preview_2_sf5gkc.png",
+        "heroimage": "https://res.cloudinary.com/dsfypcapq/image/upload/v1696878888/annie-spratt-ncQ2sguVlgo-unsplash-removebg-preview_nfsqmo.png",
         "facts": [
             {
                 "heading": "Advertise services and display past projects using Reactive components",
@@ -100,7 +100,7 @@
         "text": "Create new content, build datasets or get the latest news using custom built web scrapers",
       "quote": "“ Scraping drives the decline of banal and repetitive tasks.” — Amber Rudd.",
         "para": "Design your own web scraper that matches your own advanced requirements of making page requests, replicating human behaviour and obtaining endpoints for use",
-        "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1695835334/requests-removebg-preview_ucy6ev.png",
+        "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1696878960/mohammed-lak-jrWBI2FFsbQ-unsplash-removebg-preview_hij06s.png",
       "facts": [
             {
                 "heading": "Scrape the web using Python and Javascript web scraping libraries",
@@ -120,10 +120,10 @@
         ]
     },
     "WebToolDevelopment": {
-        "herotext": "Create web tools to use while online",
+        "herotext": "Develop tools that make it easier to work online",
         "text": "Add new plugins to your Chrome Browser, build applications for the Chrome marketplace or utilise custom technologies that embed code onto web pages while you browse",
         "para": "Boost productivity, alter the appearance of the web page, add content from elsewhere and build tools that make it easier to do what you do",
-        "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1695835593/extension-removebg-preview_e7p8bq.png",
+        "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1696879286/syed-hussaini-MXeDE_yCdHQ-unsplash-removebg-preview_f8a2xy.png",
       "facts": [
             {
                 "heading": "Create your own plugins to use in your browser",

@@ -14,7 +14,6 @@ const SEOAffiliates = () => {
         <Hero data={services.SEOAffiliates}/>
         <Quote data={services.SEOAffiliates}/>
         <Cards data={services.SEOAffiliates}/>
-        <Block data={services.SEOAffiliates}/>
         <Footer data={services.SEOAffiliates}/>
       </>
   )
