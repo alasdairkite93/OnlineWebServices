@@ -10,8 +10,6 @@ import './MenuApp.css';
 import Home from './routes/HomeMain';
 import About from '../src/routes/About';
 
-import Services from "../src/components/services";
-
 import WebDevelopment from './routes/Services/WebDevelopment';
 import SEOAffiliates from './routes/Services/SEOAffiliates';
 import WebScraping from './routes/Services/WebScraping';
@@ -35,7 +33,6 @@ function App() {
             <Route path="/" element={<Layout />}>
                 <Route index element={<Home />} />
                 <Route path="about" element={<About />} />
-                <Route path="services" element={<Services />} />
 
                 <Route path="web-development" element={<WebDevelopment />} />
                 <Route path="web-scraping" element={<WebScraping />} />
