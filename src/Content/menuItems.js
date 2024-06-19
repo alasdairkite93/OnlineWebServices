@@ -9,10 +9,9 @@ export const menuItems = [
   },
   {
     title: 'Services',
-    url: '/services',
     submenu: [
       {
-        title: 'Web Development',
+        title: 'Full Stack Web Applications',
         url: 'web-development',
       },
       {
@@ -20,21 +19,17 @@ export const menuItems = [
         url: 'web-scraping',
       },
       {
-        title: 'Email Lists',
+        title: 'New Leads',
         url: 'email-lists',
       },
       {
-        title: 'Application Development',
-        url: 'application-development',
+        title: 'Database Design & Development',
+        url: 'database-design',
       },
       {
-        title: 'Web Tool Development',
+        title: 'Applications',
         url: 'web-tool-development',
-      },
-      {
-        title: 'SEO & Affiliate Marketing',
-        url: 'seo-affiliates',
-      },
+      }
     ],
   },
   {

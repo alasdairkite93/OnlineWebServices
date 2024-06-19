@@ -3,18 +3,17 @@ import {Link} from "react-router-dom";
 
 const Solutions = () => {
     return (
-        <div id="services" className="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-gray-50">
+        <div id="services" className="section relative pt-20 pb-8 md:pt-16 md:pb-0">
             <div className="container xl:max-w-6xl mx-auto px-4">
                 <header className="text-center mx-auto mb-12 lg:px-20">
-                    <h2 className="text-2xl leading-normal mb-2 font-bold text-black">What We Do</h2>
+                    <h2 className="text-2xl leading-normal mb-2 font-bold text-black">What We Can Do</h2>
                 </header>
                 <div className="flex flex-wrap flex-row -mx-4 text-center">
                     <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
                          data-wow-duration="1s"
                          styles="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
                         <Link to="/email-lists">
-                        <div
-                            className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                        <div className="py-8 px-12 mb-12  transform transition duration-300 ease-in-out hover:-translate-y-2">
                             <div className="inline-block text-gray-900 mb-4">
                                 <svg width="5rem" height="5rem" viewBox="0 0 20 20" version="1.1"
                                      xmlns="http://www.w3.org/2000/svg">
@@ -25,10 +24,9 @@ const Solutions = () => {
                                     </g>
                                 </svg>
                             </div>
-                            <h3 className="text-lg leading-normal mb-2 font-semibold text-black">Email List
-                                Creation</h3>
-                            <p className="text-gray-500">Generate validated email lists from directories, google and
-                                other sources.</p>
+                            <h3 className="text-lg leading-normal mb-2 font-semibold text-black">Build new leads and contacts</h3>
+                            <p className="text-gray-500">Utilise validated email lists and contacts from directories, google and
+                                social media like LinkedIn.</p>
                         </div>
                         </Link>
                     </div>
@@ -36,9 +34,7 @@ const Solutions = () => {
                          data-wow-duration="1s" data-wow-delay=".1s"
                          styles="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
                         <Link to="/web-scraping">
-                        <div
-                            className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-                            <div className="inline-block text-gray-900 mb-4">
+                            <div className="py-8 px-12 mb-12  transform transition duration-300 ease-in-out hover:-translate-y-2">                            <div className="inline-block text-gray-900 mb-4">
                                 <svg width="5rem" height="5rem" viewBox="-0.56 0 171.265 171.265"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <g id="scraper" transform="translate(-421.662 -997.216)">
@@ -51,7 +47,7 @@ const Solutions = () => {
 
                             </div>
                             <h3 className="text-lg leading-normal mb-2 font-semibold text-black">Web Scraping</h3>
-                            <p className="text-gray-500">Scrape content from client facing pages and API end points.</p>
+                            <p className="text-gray-500">Scrape content from web pages and APIs.</p>
                         </div>
                         </Link>
                     </div>
@@ -59,9 +55,7 @@ const Solutions = () => {
                          data-wow-duration="1s" data-wow-delay=".3s"
                          styles="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <Link to="/web-development">
-                        <div
-                            className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-                            <div className="inline-block text-gray-900 mb-4">
+                            <div className="py-8 px-12 mb-12  transform transition duration-300 ease-in-out hover:-translate-y-2">                            <div className="inline-block text-gray-900 mb-4">
                                 <svg width="5rem" height="5rem" viewBox="0 0 17 17" version="1.1"
                                      xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink">
                                     <g>
@@ -70,9 +64,8 @@ const Solutions = () => {
                                           fill="#000000"/>
                                 </svg>
                             </div>
-                            <h3 className="text-lg leading-normal mb-2 font-semibold text-black">Web Development</h3>
-                            <p className="text-gray-500">Deploy a freely hosted web site using the latest development
-                                framework.</p>
+                            <h3 className="text-lg leading-normal mb-2 font-semibold text-black">Full Stack Web Development</h3>
+                            <p className="text-gray-500">Deploy front and back end web services using the latest framework with database integration.</p>
                         </div>
                         </Link>
                     </div>
@@ -80,9 +73,8 @@ const Solutions = () => {
                          data-wow-duration="1s"
                          styles="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
                         <Link to="/web-tool-development">
-                        <div
-                            className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-                            <div className="inline-block text-gray-900 mb-4">
+                            <div className="py-8 px-12 mb-12  transform transition duration-300 ease-in-out hover:-translate-y-2">
+                                <div className="inline-block text-gray-900 mb-4">
                                 <svg  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                       width="5rem" height="5rem" viewBox="0 0 37.884 37.885"
@@ -120,10 +112,8 @@ const Solutions = () => {
 </g>
 </svg>
                             </div>
-                            <h3 className="text-lg leading-normal mb-2 font-semibold text-black">Web Tool
-                                Development</h3>
-                            <p className="text-gray-500">Design a plugin or chrome extension and maximise
-                                productivity.</p>
+                            <h3 className="text-lg leading-normal mb-2 font-semibold text-black">Database Design & Creation</h3>
+                            <p className="text-gray-500">Database design and development to match your business logic.</p>
                         </div>
                         </Link>
                     </div>
@@ -131,9 +121,8 @@ const Solutions = () => {
                          data-wow-duration="1s" data-wow-delay=".1s"
                          styles="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
                         <Link to="/application-development">
-                        <div
-                            className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-                            <div className="inline-block text-gray-900 mb-4">
+                            <div className="py-8 px-12 mb-12  transform transition duration-300 ease-in-out hover:-translate-y-2">
+                                <div className="inline-block text-gray-900 mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="5rem" height="5rem" fill="currentColor"
                                      className="bi bi-wallet2" viewBox="0 0 16 16">
                                     <path
@@ -142,7 +131,7 @@ const Solutions = () => {
                             </div>
                             <h3 className="text-lg leading-normal mb-2 font-semibold text-black">Application
                                 Development</h3>
-                            <p className="text-gray-500">Design an application and undertake new tasks.</p>
+                            <p className="text-gray-500">Services to help you build a plugin, desktop or other kind of application.</p>
                         </div>
                         </Link>
                     </div>
@@ -150,18 +139,16 @@ const Solutions = () => {
                          data-wow-duration="1s" data-wow-delay=".3s"
                          styles="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <Link to="/seo-affiliates">
-                        <div
-                            className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-                            <div className="inline-block text-gray-900 mb-4">
+                            <div className="py-8 px-12 mb-12  transform transition duration-300 ease-in-out hover:-translate-y-2">
+                                <div className="inline-block text-gray-900 mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="5rem" height="5rem" fill="currentColor"
                                      className="bi bi-funnel" viewBox="0 0 16 16">
                                     <path
                                         d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"></path>
                                 </svg>
                             </div>
-                            <h3 className="text-lg leading-normal mb-2 font-semibold text-black">SEO & Affiliate
-                                Marketing</h3>
-                            <p className="text-gray-500">Increase google page ranking and monetise page visits.</p>
+                            <h3 className="text-lg leading-normal mb-2 font-semibold text-black">Machine Learning & Artificial Intelligence</h3>
+                            <p className="text-gray-500">Trained models and data processing to accomodate machine intelligence based applications.</p>
                         </div>
                         </Link>
                     </div>

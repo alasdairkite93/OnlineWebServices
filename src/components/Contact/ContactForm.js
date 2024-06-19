@@ -1,25 +1,61 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
+import axios from 'axios';
 
 const ContactForm = () => {
 
     const form = useRef();
 
+    var data = {
+        service_id: 'service_8b0xzsn',
+        template_id: 'template_ns74p0z',
+        user_id: '52I0lB0Jf7FpzTwPT',
+        template_params: {
+            'username': 'James',
+            'g-recaptcha-response': '03AHJ_ASjnLA214KSNKFJAK12sfKASfehbmfd...'
+        }
+    };
+
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_u5mfehk', 'template_kabljxp', form.current, '5U3UHbAKEWSnnRkNq')
-            .then((result) => {
-                alert('Message sent successfully.');
-                console.log(result.text);
-            }, (error) => {
-                alert('Message failed to send.');
-                console.log(error.text);
-            });
+        emailjs.init({
+            publicKey: 'hyUWDgWd3515rvKZ6',
+            // Do not allow headless browsers
+            blockHeadless: true,
+            blockList: {
+                // Block the suspended emails
+                list: ['foo@emailjs.com', 'bar@emailjs.com'],
+                // The variable contains the email address
+                watchVariable: 'userEmail',
+            },
+            limitRate: {
+                // Set the limit rate for the application
+                id: 'app',
+                // Allow 1 request per 10s
+                throttle: 10000,
+            },
+        });
+
+        var templateParams = {
+            name: 'James',
+            notes: 'Check this out!',
+        };
+
+        emailjs.send('service_8b0xzsn', 'template_ns74p0z', templateParams, 'hyUWDgWd3515rvKZ6').then(
+            (response) => {
+                console.log('SUCCESS!', response.status, response.text);
+            },
+            (error) => {
+                console.log('FAILED...', error);
+            },
+        );
+
     };
 
     return (
-        <section className="bg-gray-50 px-5 " id="contact">
+
+        <section className="px-5 " id="contact">
             <div className="text-center md:w-[90%] mx-auto text-black ">
                 <h2 className="text-2xl text-center font-semibold font-display text-black dark:text-white sm:text-3xl">
                     Send a message

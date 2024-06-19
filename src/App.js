@@ -16,7 +16,7 @@ import WebDevelopment from './routes/Services/WebDevelopment';
 import SEOAffiliates from './routes/Services/SEOAffiliates';
 import WebScraping from './routes/Services/WebScraping';
 import EmailLists from './routes/Services/EmailLists';
-import ApplicationDevelopment from './routes/Services/ApplicationDevelopment';
+import DatabaseDesign from './routes/Services/DatabaseDesign';
 import WebToolDevelopment from './routes/Services/WebToolDevelopment';
 
 
@@ -40,7 +40,7 @@ function App() {
                 <Route path="web-development" element={<WebDevelopment />} />
                 <Route path="web-scraping" element={<WebScraping />} />
                 <Route path="email-lists" element={<EmailLists />} />
-                <Route path="application-development" element={<ApplicationDevelopment />} />
+                <Route path="database-design" element={<DatabaseDesign />} />
                 <Route path="web-tool-development" element={<WebToolDevelopment />} />
                 <Route path="seo-affiliates" element={<SEOAffiliates />} />
 

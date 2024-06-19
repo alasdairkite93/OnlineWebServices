@@ -7,16 +7,18 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_u5mfehk', 'template_kabljxp', form.current, '5U3UHbAKEWSnnRkNq')
+
+
+        emailjs.sendForm('service_8b0xzsn', 'template_ns74p0z', form.current, 'hyUWDgWd3515rvKZ6')
             .then((result) => {
-                console.log(result.text);
+                console.log('email sent: '+result.text);
             }, (error) => {
                 console.log(error.text);
             });
     };
 
     return (
-        <section className="bg-gray-50 px-5 " id="contact">
+        <section className="px-5 " id="contact">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md ">
             <p className="mb-8 lg:mb-16 font-light text-center text-white dark:text-gray-400 sm:text-xl">Want to send a message? Or find out more information?</p>
             <form ref={form} onSubmit={sendEmail} className="space-y-4">

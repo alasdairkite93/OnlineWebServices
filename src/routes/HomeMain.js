@@ -17,7 +17,6 @@ const HomeMain = () => {
             <About/>
             <Solutions/>
             <Testimonial/>
-            <About2/>
             <Contact/>
             <Footer/>
         </>

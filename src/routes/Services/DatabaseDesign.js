@@ -7,16 +7,16 @@ import Pricing from "../../components/Services/pricing";
 import Block from "../../components/Services/block";
 import Footer from "../../components/Home/Footer";
 
-const ApplicationDevelopment = () => {
+const DatabaseDesign = () => {
 
     return (
         <>
-            <Hero data={services.applicationdevelopment}/>
-            <Quote data={services.applicationdevelopment}/>
-            <Cards data={services.applicationdevelopment}/>
+            <Hero data={services.databasedesign}/>
+            <Quote data={services.databasedesign}/>
+            <Cards data={services.databasedesign}/>
             <Footer data={services.emaillist}/>
         </>
     )
 }
 
-export default ApplicationDevelopment;
+export default DatabaseDesign;

@@ -2,6 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 
+
 import {
     AiOutlineTwitter,
     AiOutlineYoutube,
@@ -23,13 +24,13 @@ import {
 const Heading = styled.h1`
   font-family: Futura, sans-serif;
   line-height: 1.5 !important;
-  color: white;
+  color: black;
   font-size: 80px;
 `;
 
 const Para = styled.p`
   font-size: 5px;
-  color: white;
+  color: black;
   font-size: 40px;
 `;
 
@@ -42,7 +43,7 @@ const Flex = styled.div`
 
 const Hero = () => {
     return (
-        <section className="bg-gradient-to-r from-sky-300 to-orange-300 px-5 text-white py-32">
+        <section className=" px-5 text-black ">
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="hero-info pb-5 md:pb-0">
                     <Heading>
@@ -50,7 +51,8 @@ const Hero = () => {
                     </Heading>
 
                     <Para>
-                        Productivity boosting software applications for recruitment and marketing professionals.
+                        A friendly software company that will help you explore and bring the potential of
+                        your ideas into being through the incredible work of a knowledgeable and hard working team.
                     </Para>
 
                     <Flex>
