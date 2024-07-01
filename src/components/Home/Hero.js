@@ -51,8 +51,8 @@ const Hero = () => {
                     </Heading>
 
                     <Para>
-                        A friendly software company that will help you explore and bring the potential of
-                        your ideas into being through the incredible work of a knowledgeable and hard working team.
+                        A friendly software company that will help you explore the potential of
+                        your ideas, before bringing them into being through the incredible work of a knowledgeable and hard working team.
                     </Para>
 
                     <Flex>
