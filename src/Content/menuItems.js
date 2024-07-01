@@ -28,7 +28,7 @@ export const menuItems = [
       },
       {
         title: 'Applications',
-        url: 'web-tool-development',
+        url: 'application-development',
       }
     ],
   },

@@ -38,7 +38,7 @@ function App() {
                 <Route path="web-scraping" element={<WebScraping />} />
                 <Route path="email-lists" element={<EmailLists />} />
                 <Route path="database-design" element={<DatabaseDesign />} />
-                <Route path="web-tool-development" element={<WebToolDevelopment />} />
+                <Route path="application-development" element={<WebToolDevelopment />} />
                 <Route path="seo-affiliates" element={<SEOAffiliates />} />
 
                 <Route path="how-it-works" element={<HowItWorks />} />

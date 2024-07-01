@@ -36,31 +36,31 @@
         ]
     },
     "SEOAffiliates": {
-        "herotext": "Reach new audiences and monetise site traffic",
-      "quote": "SEO is an investment just like a tree that needs effort, patience and time to grow before you can see the result.",
-        "text": "Utilise the power of SEO keywords and affiliate partnership programs on your web page",
-        "para": "Undertake keyword research campaigns and create content that increases your page ranking. Add affiliate content to the web page and monetise page visits.",
+        "herotext": "Utilise machine learning and AI",
+      "quote": "We are drowning in information and starving for knowledge.",
+        "text": "Machine learning is revolutionizing industry by optimizing processes, enhancing decision-making, and driving innovation through predictive analytics and automation.",
+        "para": "Technologies such as self-driving cars, voice assistants, recommendation systems, and fraud detection systems use machine learning to improve functionality and user experience.",
         "heroimage":"https://res.cloudinary.com/dsfypcapq/image/upload/v1696879475/chrissie-kremer-Eq9uX_TuE_c-unsplash-removebg-preview_amnrqk.png",
       "facts": [
             {
-                "heading": "SEO keyword research specific to your industry",
-                "fact": "Increase web page search engine ranking using better matched keywords and content!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695841958/keyword-removebg-preview_wjefjx.png"
+                "heading": "Linear Regression models on sales data",
+                "fact": "Utilising machine learning technologies on sales data, insights into consumer behaviour was leaveraged to predict future consumption.",
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1719865873/regression_rnozgq.png"
             },
             {
-                "heading": "Monetise page visits and generate income",
-                "fact": "Embed links to affiliate marketing and monetise page clicks!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695842012/affiliate-removebg-preview_wz92cy.png"
+                "heading": "AI Image Recognition",
+                "fact": "Utilising large image data sets it is possible to create image recognition software to identify objects, persons or places; thus supporting the productivity of workplaces through database integrations.",
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1719866037/neural_fv4umf.png"
             },
             {
-                "heading": "Start small and build up",
-                "fact": "Increase traffic using link building, blogs and social media!",
-                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1695842052/traffic-removebg-preview_lbifhh.png"
+                "heading": "Data Classification Tasks",
+                "fact": "A machine learning classification task involves training a model to categorize data into predefined classes or labels based on input features, enabling it to predict the category of new, unseen data accurately. Grouping big data into manageable chunks where patterns and trends can be easily identified.",
+                "image": "https://res.cloudinary.com/dsfypcapq/image/upload/v1719866307/classification_t6d1v2.webp"
             }
         ]
     },
     "WebDevelopment": {
-        "herotext": "Full Stack Web Applications utilise multiple technologies and frameworks that allows users to interact with a web interface while it processes data on back end operations",
+        "herotext": "Enable users to interact with a web interface that processes data on back end operations",
       "quote": "“Website without visitors is like a ship lost in the horizon.”\n― Dr. Christopher Dayagdag",
       "para": "A well-crafted full stack web application enhances user experience by ensuring seamless interaction, quick response times, and a cohesive interface that feels both intuitive and responsive. Many full stack web applications exist including: Netflix, Airbnb and Twitter.",
         "heroimage": "https://res.cloudinary.com/dsfypcapq/image/upload/v1718823144/SaaS_p6ri3c.png",
