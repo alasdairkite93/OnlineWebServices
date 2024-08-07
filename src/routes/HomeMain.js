@@ -9,6 +9,8 @@ import Testimonial from "../components/Home/Testimonial";
 import Solutions from "../components/Home/Solutions";
 import About2 from "../components/Home/About2";
 
+import Hero2 from "../components/Home/Hero2";
+
 const HomeMain = () => {
 
     return (

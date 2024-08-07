@@ -30,7 +30,7 @@ function App() {
     <div className="App">
         <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Layout />}>
+
                 <Route index element={<Home />} />
                 <Route path="about" element={<About />} />
 
@@ -46,7 +46,7 @@ function App() {
                 <Route path="contact" element={<Contact />}/>
 
                 <Route path="*" element={<p>Not found!</p>} />
-            </Route>
+
         </Routes>
         </BrowserRouter>
     </div>

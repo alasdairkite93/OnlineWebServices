@@ -1,6 +1,8 @@
 import React from "react";
 
 import styled from "styled-components";
+import '../../stylesheets/split.css';
+
 
 
 import {
@@ -24,14 +26,19 @@ import {
 const Heading = styled.h1`
   font-family: Futura, sans-serif;
   line-height: 1.5 !important;
-  color: black;
+  color: white;
   font-size: 80px;
+  text-align: center;
+  padding-left: 2%;
 `;
 
 const Para = styled.p`
   font-size: 5px;
-  color: black;
+  color: white;
   font-size: 40px;
+  text-align: center;
+  padding-left: 2%;
+
 `;
 
 const Flex = styled.div`
@@ -40,19 +47,36 @@ const Flex = styled.div`
   color: white;
 `
 
+const List = styled.ul`
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: white;
+`
+
+const TopDiv = styled.div`
+  padding-bottom: 10%;
+  
+
+`
+
+const Background1 = styled.div`
+  background-color: #540D6E;
+`
 
 const Hero = () => {
     return (
-        <section className=" px-5 text-black ">
-            <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
+        <TopDiv>
+            <div className="split-container">
+                <div className="split-left">
+
                 <div className="hero-info pb-5 md:pb-0">
                     <Heading>
                         Online Web Services
                     </Heading>
 
                     <Para>
-                        A friendly software company that will help you explore the potential of
-                        your ideas, before bringing them into being through the incredible work of a knowledgeable and hard working team.
+                        No matter your experience or expertise, we have the know how to turn your ideas into reality.
                     </Para>
 
                     <Flex>
@@ -71,18 +95,26 @@ const Hero = () => {
                             <AiOutlineGithub size={40}  />{" "}
                         </a>
                     </Flex>
-
                 </div>
-
+                </div>
+                <div className="split-right">
                 <div className="hero-img">
-                    <img
-                        src="https://res.cloudinary.com/dsfypcapq/image/upload/v1695713331/blankbaseball_zkchaq.png"
-                        alt="coding illustration"
-                        className="lgw-[80%] ml-auto"
-                    />
+                    <div className="herotext">
+                        <List>
+                            <li>Websites</li>
+                            <li>Applications</li>
+                            <li>Software as a Service (SAAS)</li>
+                            <li>Scraping Projects</li>
+                            <li>Mailing Lists</li>
+                            <li>Ecommerce</li>
+                            <li>Integrations</li>
+                            <li>Chat Bots</li>
+                        </List>
+                    </div>
                 </div>
             </div>
-        </section>
+            </div>
+        </TopDiv>
     );
 };
 
