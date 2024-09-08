@@ -25,10 +25,10 @@ const Footer = () => {
                             us</h2>
                         <ul className="text-gray-500 dark:text-gray-400 font-medium">
                             <li className="mb-4">
-                                <a href="https://github.com/alasdairkite93" className="hover:underline">Github</a>
+                                <a href="https://github.com/" className="hover:underline">Github</a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/alasdair--kite/" className="hover:underline">LinkedIn</a>
+                                <a href="https://www.linkedin.com/in/" className="hover:underline">LinkedIn</a>
                             </li>
                         </ul>
                     </div>
@@ -37,7 +37,7 @@ const Footer = () => {
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
             <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a
-              href="https://flowbite.com/" className="hover:underline">Alasdair Kite™</a>. All Rights Reserved.
+              href="https://flowbite.com/" className="hover:underline">Kite™</a>. All Rights Reserved.
           </span>
             </div>
         </div>
